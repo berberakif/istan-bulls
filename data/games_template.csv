@@ -1,0 +1,50 @@
+date,time,home_team,away_team,league,venue,lat,lng,home_coach,away_coach,tbf_link,tickets_url,is_istanbul_game
+# ============================================
+# HOW TO USE THIS FILE:
+# ============================================
+# 1. Delete lines starting with # (comments)
+# 2. Add one game per line
+# 3. Use YYYY-MM-DD format for dates
+# 4. Use HH:MM format for times
+# 5. League codes: BSL, TBL, KBSL, TKBL, BGL, BGLK, TB2L
+# 6. Find venue coordinates from Google Maps
+# 7. Save file and refresh website
+# ============================================
+#
+# WEEK 15 GAMES (Jan 9-12, 2026) - EXAMPLE DATA
+# ============================================
+#
+# BSL - Men's Super League
+2026-01-09,19:00,Anadolu Efes,Pinar Karsiyaka,BSL,Sinan Erdem Spor Salonu,40.9897,28.8171,Tomislav Mijatovic,Ufuk Sarica,https://www.tbf.org.tr/ligler/bsl-2025-2026/maclar,https://www.passo.com.tr,true
+2026-01-11,15:00,Fenerbahce Beko,Yukatel Merkezefendi,BSL,Ulker Sports Arena,40.9857,29.0481,Sarunas Jasikevicius,Orhan Haciyeva,https://www.tbf.org.tr/ligler/bsl-2025-2026/maclar,https://www.passo.com.tr,true
+2026-01-11,17:00,Galatasaray Nef,Tofas,BSL,Sinan Erdem Spor Salonu,40.9897,28.8171,Orhun Ene,Ahmet Caki,https://www.tbf.org.tr/ligler/bsl-2025-2026/maclar,https://www.passo.com.tr,true
+2026-01-12,14:00,Bahcesehir Koleji,Turk Telekom,BSL,Bahcesehir Koleji Spor Salonu,41.0123,28.6641,Ertugrul Erdogan,Cemal Bozoglu,https://www.tbf.org.tr/ligler/bsl-2025-2026/maclar,https://www.passo.com.tr,true
+2026-01-12,16:00,Besiktas Fibabanka,Konyaspor,BSL,Akatlar Arena,41.0832,29.0244,Dusan Alimpijevic,Selcuk Ernak,https://www.tbf.org.tr/ligler/bsl-2025-2026/maclar,https://www.passo.com.tr,true
+#
+# TBL - Men's Second League
+2026-01-13,19:30,Darussafaka,Aliaga Petkimspor,TBL,Darussafaka Ayhan Sahenk Spor Salonu,41.0675,29.0127,TBA,TBA,https://www.tbf.org.tr/ligler/tbl-2025-2026/maclar,,true
+#
+# KBSL - Women's Super League
+2026-01-14,20:00,Fenerbahce,Cukurova Basketbol,KBSL,Ulker Sports Arena,40.9857,29.0481,Victor Lapena,TBA,https://www.tbf.org.tr/ligler/kbsl-2025-2026/maclar,https://www.passo.com.tr,true
+2026-01-15,18:00,Galatasaray,Bursa BBS,KBSL,Sinan Erdem Spor Salonu,40.9897,28.8171,Ekrem Memnun,TBA,https://www.tbf.org.tr/ligler/kbsl-2025-2026/maclar,https://www.passo.com.tr,true
+2026-01-15,19:00,Emlak Konut,Nesine.com,KBSL,Yenisehir Spor Salonu,41.0231,28.9123,TBA,TBA,https://www.tbf.org.tr/ligler/kbsl-2025-2026/maclar,,true
+2026-01-16,17:00,Besiktas TRC,Melikgazi Kayseri,KBSL,Akatlar Arena,41.0832,29.0244,Ayhan Avci,TBA,https://www.tbf.org.tr/ligler/kbsl-2025-2026/maclar,https://www.passo.com.tr,true
+#
+# TKBL - Women's Second League
+2026-01-10,18:00,Uskudar Basketbol,Sakarya BSB,TKBL,Uskudar Spor Salonu,41.0256,29.0156,TBA,TBA,https://www.tbf.org.tr/ligler/tkbl-2025-2026/maclar,,true
+2026-01-11,14:00,Kagithane Basketbol,Bursaspor,TKBL,Kagithane Spor Salonu,41.0654,28.9712,TBA,TBA,https://www.tbf.org.tr/ligler/tkbl-2025-2026/maclar,,true
+#
+# BGL - U20 Men's Development League
+2026-01-17,16:00,Anadolu Efes U20,Tofas U20,BGL,Anadolu Efes Spor Salonu,41.0082,28.9784,TBA,TBA,https://www.tbf.org.tr/ligler/bgl-2025-2026/maclar,,true
+2026-01-18,14:00,Fenerbahce U20,Galatasaray U20,BGL,Fenerbahce Spor Kompleksi,40.9701,29.0356,TBA,TBA,https://www.tbf.org.tr/ligler/bgl-2025-2026/maclar,,true
+2026-01-18,16:00,Besiktas U20,Karsiyaka U20,BGL,Akatlar Arena,41.0832,29.0244,TBA,TBA,https://www.tbf.org.tr/ligler/bgl-2025-2026/maclar,,true
+#
+# BGLK - U20 Women's Development League
+2026-01-19,15:00,Fenerbahce U20 Women,Besiktas U20 Women,BGLK,Fenerbahce Spor Kompleksi,40.9701,29.0356,TBA,TBA,https://www.tbf.org.tr/ligler/bglk-2025-2026/maclar,,true
+2026-01-19,17:00,Galatasaray U20 Women,Cukurova U20 Women,BGLK,Sinan Erdem Spor Salonu,40.9897,28.8171,TBA,TBA,https://www.tbf.org.tr/ligler/bglk-2025-2026/maclar,,true
+#
+# ============================================
+# WEEK 16 GAMES (Jan 16-19, 2026) - ADD YOUR DATA BELOW
+# ============================================
+# (Times may be TBA - use empty string or TBA)
+#

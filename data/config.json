@@ -1,0 +1,129 @@
+{
+    "teams": {
+        "istanbul_teams": {
+            "BSL": [
+                "Anadolu Efes",
+                "Fenerbahce Beko",
+                "Galatasaray Nef",
+                "Bahcesehir Koleji",
+                "Besiktas Fibabanka",
+                "Darussafaka"
+            ],
+            "TBL": [
+                "Darussafaka"
+            ],
+            "KBSL": [
+                "Fenerbahce",
+                "Galatasaray",
+                "Emlak Konut",
+                "Besiktas TRC"
+            ],
+            "TKBL": [
+                "Uskudar Basketbol",
+                "Kagithane Basketbol"
+            ],
+            "BGL": [
+                "Anadolu Efes U20",
+                "Fenerbahce U20",
+                "Galatasaray U20",
+                "Besiktas U20"
+            ],
+            "BGLK": [
+                "Fenerbahce U20 Women",
+                "Galatasaray U20 Women",
+                "Besiktas U20 Women"
+            ]
+        },
+        "european_competitions": {
+            "Euroleague": [
+                "Anadolu Efes",
+                "Fenerbahce Beko"
+            ],
+            "Eurocup": [
+                "Bahcesehir Koleji",
+                "Besiktas Fibabanka"
+            ],
+            "Basketball Champions League": [
+                "Galatasaray Nef"
+            ],
+            "FIBA Europe Cup": [],
+            "Euroleague Women": [
+                "Fenerbahce",
+                "Galatasaray"
+            ],
+            "Eurocup Women": [
+                "Emlak Konut",
+                "Besiktas TRC"
+            ]
+        }
+    },
+    "leagues": {
+        "BSL": {
+            "name": "Basketbol Süper Ligi",
+            "tier": "Men Tier 1",
+            "color": "#8B0000"
+        },
+        "TBL": {
+            "name": "Türkiye Basketbol Ligi",
+            "tier": "Men Tier 2",
+            "color": "#CD5C5C"
+        },
+        "TB2L": {
+            "name": "Türkiye Basketbol 2. Ligi",
+            "tier": "Men Tier 3",
+            "color": "#F08080"
+        },
+        "KBSL": {
+            "name": "Kadınlar Basketbol Süper Ligi",
+            "tier": "Women Tier 1",
+            "color": "#800080"
+        },
+        "TKBL": {
+            "name": "Türkiye Kadınlar Basketbol Ligi",
+            "tier": "Women Tier 2",
+            "color": "#BA55D3"
+        },
+        "BGL": {
+            "name": "Basketbol Gelişim Ligi Erkek",
+            "tier": "U20 Men Tier 1",
+            "color": "#FF8C00"
+        },
+        "BGLK": {
+            "name": "Basketbol Gelişim Ligi Kadın",
+            "tier": "U20 Women Tier 1",
+            "color": "#FF69B4"
+        }
+    },
+    "venues": {
+        "Sinan Erdem Spor Salonu": {
+            "lat": 40.9897,
+            "lng": 28.8171,
+            "capacity": 16000,
+            "address": "Bakırköy, Istanbul"
+        },
+        "Ulker Sports Arena": {
+            "lat": 40.9857,
+            "lng": 29.0481,
+            "capacity": 13000,
+            "address": "Atasehir, Istanbul"
+        },
+        "Akatlar Arena": {
+            "lat": 41.0832,
+            "lng": 29.0244,
+            "capacity": 3000,
+            "address": "Besiktas, Istanbul"
+        },
+        "Bahcesehir Koleji Spor Salonu": {
+            "lat": 41.0123,
+            "lng": 28.6641,
+            "capacity": 2500,
+            "address": "Bahcesehir, Istanbul"
+        },
+        "Darussafaka Ayhan Sahenk Spor Salonu": {
+            "lat": 41.0675,
+            "lng": 29.0127,
+            "capacity": 2000,
+            "address": "Maslak, Istanbul"
+        }
+    }
+}

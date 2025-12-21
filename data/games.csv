@@ -1,0 +1,30 @@
+date,time,league,homeTeam,homeCoach,awayTeam,awayCoach,venue,city,lat,lon,ticketUrl,broadcastUrl
+2026-01-11,TBD,TBL,iLab BASKETBOL,,DARÜŞŞAFAKA LASSA,,Beşiktaş Akatlar Arena,Istanbul,41.0794,29.0314,,
+2026-01-11,TBD,TBL,CEMEFE GOLD HAREM SPOR,,GAZİANTEP BASKETBOL,,Beylikdüzü Spor Salonu,Istanbul,41.0044,28.6422,,
+2026-01-18,TBD,TBL,iLab BASKETBOL,,ÇAYIROVA BELEDİYESİ,,Beşiktaş Akatlar Arena,Istanbul,41.0794,29.0314,,
+2026-01-18,TBD,TBL,FENERBAHÇE KOLEJİ RAMS,,FİNAL SPOR,,Fenerbahçe Metro Enerji Spor Salonu,Istanbul,40.9872,29.0365,,
+2026-01-18,TBD,TBL,DARÜŞŞAFAKA LASSA,,KİPAŞ İSTİKLAL SPOR,,Darüşşafaka Ayhan Şahenk Spor Salonu,Istanbul,41.1056,29.0271,,
+2026-01-18,TBD,BSL,FENERBAHÇE BEKO,Sarunas Jasikevicius,TOFAŞ,,Ülker Spor ve Etkinlik Salonu,Istanbul,40.9863,29.0378,,
+2026-01-18,TBD,BSL,GALATASARAY MCT TECHNIC,Yakup Sekizkök,BAHÇEŞEHİR KOLEJİ,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-01-18,TBD,BSL,ONVO BÜYÜKÇEKMECE BASKETBOL,,TRABZONSPOR,,Gazanfer Bilge Spor Salonu,Istanbul,41.0178,28.6033,,
+2026-01-18,TBD,BSL,SAFİPORT EROKSPOR,,ANADOLU EFES,,Sinan Erdem Spor Salonu,Istanbul,40.9879,28.8187,,
+2026-01-10,13:00,BSL,SAFİPORT EROKSPOR,,YUKATEL MERKEZEFENDİ BELEDİYESİ BASKET,,Sinan Erdem Spor Salonu,Istanbul,40.9879,28.8187,,beINSports
+2026-01-10,18:00,BSL,GALATASARAY MCT TECHNIC,Yakup Sekizkök,BEŞİKTAŞ GAİN,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,beINSports
+2026-01-11,18:00,BSL,FENERBAHÇE BEKO,Sarunas Jasikevicius,BAHÇEŞEHİR KOLEJİ,,Ülker Spor ve Etkinlik Salonu,Istanbul,40.9863,29.0378,,beINSports
+2026-01-12,19:00,BSL,ONVO BÜYÜKÇEKMECE BASKETBOL,,ANADOLU EFES,,Gazanfer Bilge Spor Salonu,Istanbul,41.0178,28.6033,,beINSports
+2026-01-17,13:00,KBSL,FENERBAHÇE SAFİPORT,Miguel Méndez,DARDANEL ÇANAKKALE BELEDİYESPOR,,Fenerbahçe Metro Enerji Spor Salonu,Istanbul,40.9872,29.0365,,Youtube / TBF TV
+2026-01-18,14:00,KBSL,EMLAK KONUT,,BOTAŞ,,Başakşehir Spor Kompleksi,Istanbul,41.0943,28.8024,,Youtube / TBF TV
+2026-01-16,14:00,TKBL,EMLAK KONUT GELİŞİM,,EDİRNE DSİ,,Başakşehir Spor Kompleksi,Istanbul,41.0943,28.8024,,Youtube / TBF TV
+2026-01-17,14:30,TKBL,İSTANBUL GENÇLİK SPOR,,ASLAN YOL BURHANİYE BELEDİYESPOR,,Caferağa Spor Salonu,Istanbul,40.9872,29.0292,,Youtube / TBF TV
+2026-01-16,18:00,BGL,10 BURGER BEYLİKDÜZÜ,,KÜTAHYA BELEDİYESPOR,,Öğretmen Fedai Altun Kapalı Spor Salonu,Istanbul,41.0044,28.6422,,
+2026-01-16,18:30,BGL,İ.T.Ü. TAM FİNANS,,TÜRK TELEKOM GELİŞİM,,İTÜ Merkez Spor Salonu,Istanbul,41.1049,29.0234,,
+2026-01-18,13:30,BGL,İBB SPOR,,AKHİSAR BELEDİYE,,Hidayet Türkoğlu Spor Kompleksi,Istanbul,41.1063,28.9816,,
+2026-01-09,19:00,BGL,WATERGARDEN HT,,KARATAY BELEDİYESPOR,,Caferağa Spor Salonu,Istanbul,40.9872,29.0292,,Youtube / TBF TV
+2026-01-10,15:00,BGL,TEŞVİKİYE,,GÜNGÖREN DORUK,,Caferağa Spor Salonu,Istanbul,40.9872,29.0292,,Youtube / TBF TV
+2026-01-17,20:45,EL,Fenerbahce Beko,Sarunas Jasikevicius,Real Madrid,Chus Mateo,Ulker Spor ve Etkinlik Salonu,Istanbul,40.9863,29.0378,https://www.passo.com.tr,beINSports
+2026-01-10,20:30,EL,Anadolu Efes,Pablo Laso,Panathinaikos,Ergin Ataman,Sinan Erdem Spor Salonu,Istanbul,40.9879,28.8187,https://www.passo.com.tr,beINSports
+2026-01-15,20:00,EC,Bahcesehir Koleji,Marko Barać,BAXI Manresa,,Sinan Erdem Spor Salonu,Istanbul,40.9879,28.8187,https://www.mobilet.com,beINSports
+2026-01-14,20:00,EC,Besiktas Gain,Dusan Alimpijevic,JL Bourg,,Besiktas Akatlar Arena,Istanbul,41.0794,29.0314,https://www.passo.com.tr,beINSports
+2026-01-14,20:00,BCL,Galatasaray MCT Technic,Yakup Sekizkök,Igokea,,Turkcell Basketbol Gelisim Merkezi,Istanbul,41.1028,28.7847,https://www.passo.com.tr,Youtube / BCL
+2026-01-15,18:30,ELW,Fenerbahce Safiport,Miguel Méndez,ASVEL,,Fenerbahce Metro Enerji Spor Salonu,Istanbul,40.9872,29.0365,,EuroLeague Women TV
+2026-01-16,18:30,ELW,Galatasaray Cagdas Faktoring,Hasan Fırat Okul,Valencia,,Turkcell Basketbol Gelisim Merkezi,Istanbul,41.1028,28.7847,,EuroLeague Women TV

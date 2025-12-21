@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Istanbul Basketball Game Tracker</title>
+    <link href="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Istanbul Basketball Game Tracker</h1>
+            <p class="subtitle"><em>İstanbul Basketbol Maç Takibi</em></p>
+        </div>
+    </header>
+
+    <main>
+        <!-- Notice Banner -->
+        <div class="notice-banner">
+            <p>⚠️ <strong>Note:</strong> Game times and dates might change. Please verify with official sources before
+                attending.</p>
+            <p class="tr">⚠️ <strong>Not:</strong> Maç saatleri ve tarihleri değişebilir. Katılmadan önce lütfen resmi
+                kaynaklardan doğrulayın.</p>
+            <p class="last-update">Last data update: <span id="data-last-update"></span></p>
+        </div>
+
+        <!-- Filters Section -->
+        <section class="filters-section">
+            <h2>Filters <span class="tr">Filtreler</span></h2>
+            <div class="filters-grid">
+                <div class="filter-group">
+                    <label for="start-date">Start Date <span class="tr">Başlangıç</span></label>
+                    <input type="date" id="start-date" value="">
+                </div>
+                <div class="filter-group">
+                    <label for="end-date">End Date <span class="tr">Bitiş</span></label>
+                    <input type="date" id="end-date" value="">
+                </div>
+                <div class="filter-group">
+                    <label for="league-filter">Leagues <span class="tr">Ligler</span></label>
+                    <select id="league-filter" multiple size="5">
+                        <option value="EL">Euroleague</option>
+                        <option value="EC">Eurocup</option>
+                        <option value="BCL">Basketball Champions League</option>
+                        <option value="ELW">Euroleague Women</option>
+                        <option value="ECW">Eurocup Women</option>
+                        <option value="BSL">BSL - Basketbol Süper Ligi</option>
+                        <option value="TBL">TBL - Türkiye Basketbol Ligi</option>
+                        <option value="KBSL">KBSL - Kadınlar Basketbol Süper Ligi</option>
+                        <option value="TKBL">TKBL - Türkiye Kadınlar Basketbol Ligi</option>
+                        <option value="BGL">BGL - Basketbol Gelişim Ligi Erkek</option>
+                        <option value="BGLK">BGLK - Basketbol Gelişim Ligi Kadın</option>
+                    </select>
+                    <small>Hold Ctrl/Cmd to select multiple</small>
+                </div>
+                <div class="filter-group">
+                    <label for="team-filter">Teams <span class="tr">Takımlar</span></label>
+                    <select id="team-filter" multiple size="5">
+                    </select>
+                    <small>Hold Ctrl/Cmd to select multiple</small>
+                </div>
+            </div>
+            <div class="filter-actions">
+                <button id="apply-filters" class="btn-primary">Apply <span class="tr">Filtrele</span></button>
+                <button id="clear-filters" class="btn-secondary">Clear <span class="tr">Temizle</span></button>
+            </div>
+        </section>
+
+        <!-- League Legend -->
+        <section class="legend-section">
+            <h3>League Colors <span class="tr">Lig Renkleri</span></h3>
+            <div class="legend-grid" id="legend-container"></div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="map-section">
+            <h2>Game Map <span class="tr">Maç Haritası</span></h2>
+            <div id="map"></div>
+            <p class="map-hint">Click markers for game details <span class="tr">Detaylar için işaretlere tıklayın</span>
+            </p>
+        </section>
+
+        <!-- Games Table Section -->
+        <section class="table-section">
+            <h2>Games List <span class="tr">Maç Listesi</span></h2>
+            <div class="stats-bar">
+                <span id="game-count">0 games found</span>
+            </div>
+            <div class="table-container">
+                <table id="games-table">
+                    <thead>
+                        <tr>
+                            <th>Date <span class="tr">Tarih</span></th>
+                            <th>Time <span class="tr">Saat</span></th>
+                            <th>League <span class="tr">Lig</span></th>
+                            <th>Home <span class="tr">Ev Sahibi</span></th>
+                            <th>Away <span class="tr">Deplasman</span></th>
+                            <th>Venue <span class="tr">Salon</span></th>
+                            <th>Links</th>
+                        </tr>
+                    </thead>
+                    <tbody id="games-body">
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- League Sources Section -->
+        <section class="sources-section">
+            <h2>League Sources <span class="tr">Lig Kaynakları</span></h2>
+            <div class="sources-grid">
+                <div class="source-category">
+                    <h4>European Competitions - Men</h4>
+                    <ul>
+                        <li><a href="https://www.euroleaguebasketball.net/en/euroleague/teams/fenerbahce-beko-istanbul/games/ulk/?season=2025-26"
+                                target="_blank">Fenerbahce Beko - Euroleague</a></li>
+                        <li><a href="https://www.euroleaguebasketball.net/en/euroleague/teams/anadolu-efes-istanbul/games/ist/"
+                                target="_blank">Anadolu Efes - Euroleague</a></li>
+                        <li><a href="https://www.euroleaguebasketball.net/eurocup/teams/bahcesehir-college-istanbul/games/bah/"
+                                target="_blank">Bahcesehir Koleji - Eurocup</a></li>
+                        <li><a href="https://www.euroleaguebasketball.net/en/eurocup/teams/besiktas-gain-istanbul/games/bes/?season=2025-26"
+                                target="_blank">Besiktas - Eurocup</a></li>
+                        <li><a href="https://www.championsleague.basketball/en/teams/galatasaray-mct-technic#games"
+                                target="_blank">Galatasaray - BCL</a></li>
+                    </ul>
+                </div>
+                <div class="source-category">
+                    <h4>European Competitions - Women</h4>
+                    <ul>
+                        <li><a href="https://www.fiba.basketball/en/events/euroleague-women-25-26/teams/fenerbahce-opet#games"
+                                target="_blank">Fenerbahce - Euroleague Women</a></li>
+                        <li><a href="https://www.fiba.basketball/en/events/euroleague-women-25-26/teams/galatasaray-cagdas-faktoring#games"
+                                target="_blank">Galatasaray - Euroleague Women</a></li>
+                    </ul>
+                </div>
+                <div class="source-category">
+                    <h4>Domestic Leagues - Men</h4>
+                    <ul>
+                        <li><a href="https://www.tbf.org.tr/ligler/bsl-2025-2026/maclar" target="_blank">BSL - Basketbol
+                                Süper Ligi</a></li>
+                        <li><a href="https://www.tbf.org.tr/ligler/tbl-2025-2026/maclar" target="_blank">TBL - Türkiye
+                                Basketbol Ligi</a></li>
+                        <li><a href="https://www.tbf.org.tr/ligler/tb2l-2025-2026/maclar" target="_blank">TB2L - Türkiye
+                                Basketbol 2. Ligi</a></li>
+                    </ul>
+                </div>
+                <div class="source-category">
+                    <h4>Domestic Leagues - Women</h4>
+                    <ul>
+                        <li><a href="https://www.tbf.org.tr/ligler/kbsl-2025-2026/maclar" target="_blank">KBSL -
+                                Kadınlar Basketbol Süper Ligi</a></li>
+                        <li><a href="https://www.tbf.org.tr/ligler/tkbl-2025-2026/maclar" target="_blank">TKBL - Türkiye
+                                Kadınlar Basketbol Ligi</a></li>
+                    </ul>
+                </div>
+                <div class="source-category">
+                    <h4>Development Leagues</h4>
+                    <ul>
+                        <li><a href="https://www.tbf.org.tr/ligler/bgl-2025-2026/maclar" target="_blank">BGL - Basketbol
+                                Gelişim Ligi (U20 Men)</a></li>
+                        <li><a href="https://www.tbf.org.tr/ligler/bglk-2025-2026/maclar" target="_blank">BGLK -
+                                Basketbol Gelişim Ligi Kadın (U20 Women)</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Istanbul Basketball Game Tracker</p>
+        <p>Data: <a href="https://www.tbf.org.tr" target="_blank">TBF</a> | <a
+                href="https://www.euroleaguebasketball.net" target="_blank">Euroleague</a> | <a
+                href="https://www.championsleague.basketball" target="_blank">BCL</a> | <a
+                href="https://www.fiba.basketball" target="_blank">FIBA</a></p>
+        <p>Last updated: <span id="last-updated"></span></p>
+    </footer>
+
+    <script src="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
