@@ -20,71 +20,91 @@ const LEAGUES = {
 const VENUES = {
     'Caferağa Spor Salonu': {
         url: 'https://maps.app.goo.gl/xarNcaDoAWVatUFY6',
-        lat: 40.9824, lon: 29.0270
+        lat: 40.988405874589745, lon: 29.026705766909313
     },
     'Sinan Erdem Spor Salonu': {
         url: 'https://maps.app.goo.gl/kPiJvtpzjuiN1T6k6',
-        lat: 40.9879, lon: 28.8187
+        lat: 40.988561377091585, lon: 28.85454277060473
     },
     'Turkcell Basketbol Gelişim Merkezi': {
         url: 'https://maps.app.goo.gl/edSUZtDKsiH1r5E69',
-        lat: 41.1028, lon: 28.7847
+        lat: 40.99449817404435, lon: 28.918928760806306
     },
     'Turkcell Basketbol Gelisim Merkezi': {
         url: 'https://maps.app.goo.gl/edSUZtDKsiH1r5E69',
-        lat: 41.1028, lon: 28.7847
+        lat: 40.99449817404435, lon: 28.918928760806306
     },
     'Ülker Spor ve Etkinlik Salonu': {
         url: 'https://maps.app.goo.gl/68gubvWnXRBYCTS47',
-        lat: 40.9863, lon: 29.0378
+        lat: 40.9930226584777, lon: 29.105462958958594
     },
     'Ulker Spor ve Etkinlik Salonu': {
         url: 'https://maps.app.goo.gl/68gubvWnXRBYCTS47',
-        lat: 40.9863, lon: 29.0378
+        lat: 40.9930226584777, lon: 29.105462958958594
     },
     'Gazanfer Bilge Spor Salonu': {
         url: 'https://maps.app.goo.gl/MNp3K8CK1NGiEr328',
-        lat: 41.0178, lon: 28.6033
+        lat: 41.027066489086735, lon: 28.591963691489408
     },
     'Beşiktaş Akatlar Arena': {
         url: 'https://maps.app.goo.gl/uSMm5wh4jm4S9dh28',
-        lat: 41.0794, lon: 29.0314
+        lat: 41.087099656184044, lon: 29.024052681690975
     },
     'Besiktas Akatlar Arena': {
         url: 'https://maps.app.goo.gl/uSMm5wh4jm4S9dh28',
-        lat: 41.0794, lon: 29.0314
+        lat: 41.087099656184044, lon: 29.024052681690975
     },
     'Beylikdüzü Spor Salonu': {
         url: 'https://maps.app.goo.gl/zwoVZMEAzgdaqynVA',
-        lat: 41.0044, lon: 28.6422
+        lat: 41.003039232637605, lon: 28.644945539137993
     },
     'Fenerbahçe Metro Enerji Spor Salonu': {
         url: 'https://maps.app.goo.gl/DBz7XcLhgEXPetxi8',
-        lat: 40.9872, lon: 29.0365
+        lat: 40.99375843249731, lon: 29.106006178695996
     },
     'Fenerbahce Metro Enerji Spor Salonu': {
         url: 'https://maps.app.goo.gl/DBz7XcLhgEXPetxi8',
-        lat: 40.9872, lon: 29.0365
+        lat: 40.99375843249731, lon: 29.106006178695996
     },
     'İTÜ Merkez Spor Salonu': {
         url: 'https://maps.app.goo.gl/tANmNGbBE9nhhvyi8',
-        lat: 41.1049, lon: 29.0234
+        lat: 41.10315052062324, lon: 29.02222852642779
+    },
+    'ITU Spor Salonu': {
+        url: 'https://maps.app.goo.gl/tANmNGbBE9nhhvyi8',
+        lat: 41.10315052062324, lon: 29.02222852642779
     },
     'Öğretmen Fedai Altun Kapalı Spor Salonu': {
         url: 'https://maps.app.goo.gl/BN67CGE6dvoo9z957',
-        lat: 41.0044, lon: 28.6422
+        lat: 40.979118695646, lon: 28.653692064501726
+    },
+    'Ogretmen Fedai Altun': {
+        url: 'https://maps.app.goo.gl/BN67CGE6dvoo9z957',
+        lat: 40.979118695646, lon: 28.653692064501726
     },
     'Başakşehir Spor Kompleksi': {
         url: 'https://maps.app.goo.gl/KqycXea7z4e1XraD9',
-        lat: 41.0943, lon: 28.8024
+        lat: 41.10803295814748, lon: 28.780558826427793
+    },
+    'Basaksehir Spor Kompleksi': {
+        url: 'https://maps.app.goo.gl/KqycXea7z4e1XraD9',
+        lat: 41.10803295814748, lon: 28.780558826427793
     },
     'Hidayet Türkoğlu Spor Kompleksi': {
         url: 'https://maps.app.goo.gl/vYhgUkWwBp8D2pki8',
-        lat: 41.1063, lon: 28.9816
+        lat: 41.06580549070676, lon: 28.886395885946275
+    },
+    'Hidayet Turkoglu Spor Kompleksi': {
+        url: 'https://maps.app.goo.gl/vYhgUkWwBp8D2pki8',
+        lat: 41.06580549070676, lon: 28.886395885946275
     },
     'Darüşşafaka Ayhan Şahenk Spor Salonu': {
         url: 'https://maps.app.goo.gl/jrLoPkgQ39b5N1zH9',
-        lat: 41.1056, lon: 29.0271
+        lat: 41.125588379531415, lon: 29.029558016629373
+    },
+    'Darussafaka Ayhan Sahenk Spor Salonu': {
+        url: 'https://maps.app.goo.gl/jrLoPkgQ39b5N1zH9',
+        lat: 41.125588379531415, lon: 29.029558016629373
     }
 };
 
@@ -154,12 +174,22 @@ async function loadGames() {
 }
 
 // Populate team filter dropdown (multi-select) with league tier info
-function populateTeamFilter() {
+function populateTeamFilter(selectedLeagues = []) {
     const teamFilter = document.getElementById('team-filter');
+    
+    // Store currently selected teams
+    const previouslySelectedTeams = Array.from(teamFilter.selectedOptions).map(opt => opt.value);
+    
+    // Clear existing options except the first placeholder if any
+    teamFilter.innerHTML = '';
 
     // Build team -> league tier mapping (home teams only)
     const teamTiers = {};
     allGames.forEach(game => {
+        // If leagues are selected, only include teams from those leagues
+        if (selectedLeagues.length > 0 && !selectedLeagues.includes(game.league)) {
+            return;
+        }
         const league = LEAGUES[game.league];
         const tier = league ? league.tier : '';
         if (game.homeTeam && !teamTiers[game.homeTeam]) {
@@ -175,6 +205,10 @@ function populateTeamFilter() {
         option.value = team;
         const tier = teamTiers[team];
         option.textContent = tier ? `${team} (${tier})` : team;
+        // Re-select if it was previously selected
+        if (previouslySelectedTeams.includes(team)) {
+            option.selected = true;
+        }
         teamFilter.appendChild(option);
     });
 
@@ -202,7 +236,17 @@ function setupEventListeners() {
     document.getElementById('apply-filters').addEventListener('click', applyFilters);
     document.getElementById('clear-filters').addEventListener('click', clearFilters);
 
+    // Special handler for league filter to update team list
+    const leagueFilter = document.getElementById('league-filter');
+    leagueFilter.addEventListener('change', () => {
+        const selectedLeagues = Array.from(leagueFilter.selectedOptions).map(opt => opt.value).filter(v => v);
+        populateTeamFilter(selectedLeagues);
+        applyFilters();
+    });
+
     document.querySelectorAll('.filter-group input, .filter-group select').forEach(el => {
+        // Skip league filter as it has its own handler
+        if (el.id === 'league-filter') return;
         el.addEventListener('keypress', (e) => {
             if (e.key === 'Enter') applyFilters();
         });
