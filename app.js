@@ -176,10 +176,10 @@ async function loadGames() {
 // Populate team filter dropdown (multi-select) with league tier info
 function populateTeamFilter(selectedLeagues = []) {
     const teamFilter = document.getElementById('team-filter');
-    
+
     // Store currently selected teams
     const previouslySelectedTeams = Array.from(teamFilter.selectedOptions).map(opt => opt.value);
-    
+
     // Clear existing options except the first placeholder if any
     teamFilter.innerHTML = '';
 
