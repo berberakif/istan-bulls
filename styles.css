@@ -72,15 +72,15 @@ body {
 
 .calendar-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-    gap: 0.75rem;
+    grid-template-columns: repeat(auto-fill, minmax(115px, 1fr));
+    gap: 0.5rem;
 }
 
 .calendar-day {
     background: var(--bg-secondary);
     border-radius: var(--border-radius);
-    padding: 0.5rem;
-    min-height: 80px;
+    padding: 0.4rem;
+    min-height: 70px;
 }
 
 .calendar-day-header {
@@ -121,16 +121,20 @@ body {
 .calendar-game {
     background: var(--bg-card);
     border-radius: 4px;
-    padding: 0.5rem;
-    font-size: 0.75rem;
+    padding: 0.4rem;
+    font-size: 0.7rem;
     border-left: 3px solid var(--accent);
     cursor: pointer;
     transition: transform 0.1s ease, box-shadow 0.1s ease;
+    text-decoration: none;
+    display: block;
+    color: inherit;
 }
 
 .calendar-game:hover {
     transform: translateX(2px);
     box-shadow: var(--shadow);
+    background: var(--bg-secondary);
 }
 
 .calendar-game-time {

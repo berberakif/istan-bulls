@@ -382,14 +382,16 @@ function renderCalendar(games) {
             .sort((a, b) => (a.time || '').localeCompare(b.time || ''))
             .map(game => {
                 const league = LEAGUES[game.league] || { color: '#666' };
+                const venueInfo = VENUES[game.venue];
+                const mapsUrl = venueInfo ? venueInfo.url : (game.lat && game.lon ? `https://www.google.com/maps?q=${game.lat},${game.lon}` : '#');
                 return `
-                    <div class="calendar-game" style="border-left-color: ${league.color}">
+                    <a href="${mapsUrl}" target="_blank" class="calendar-game" style="border-left-color: ${league.color}" title="${game.venue || 'Venue TBD'}">
                         <div class="calendar-game-time">${game.time || 'TBD'}</div>
                         <div class="calendar-game-teams">
                             <strong>${shortenTeamName(game.homeTeam)}</strong> vs ${shortenTeamName(game.awayTeam)}
                         </div>
                         <span class="calendar-game-league" style="background: ${league.color}">${game.league}</span>
-                    </div>
+                    </a>
                 `;
             }).join('');
 
