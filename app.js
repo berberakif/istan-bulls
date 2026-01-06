@@ -285,6 +285,7 @@ function applyFilters() {
         return (a.time || '').localeCompare(b.time || '');
     });
 
+    renderCalendar(filteredGames);
     renderTable(filteredGames);
     renderMapMarkers(filteredGames);
     updateGameCount(filteredGames.length);
@@ -344,6 +345,79 @@ function renderTable(games) {
             </tr>
         `;
     }).join('');
+}
+
+// Render calendar view
+function renderCalendar(games) {
+    const container = document.getElementById('calendar-container');
+
+    if (games.length === 0) {
+        container.innerHTML = '<div class="calendar-no-games">No games found with these filters</div>';
+        return;
+    }
+
+    // Group games by date
+    const gamesByDate = {};
+    games.forEach(game => {
+        if (!gamesByDate[game.date]) {
+            gamesByDate[game.date] = [];
+        }
+        gamesByDate[game.date].push(game);
+    });
+
+    // Sort dates
+    const sortedDates = Object.keys(gamesByDate).sort();
+
+    // Get today's date string for highlighting
+    const today = new Date().toISOString().split('T')[0];
+
+    container.innerHTML = sortedDates.map(date => {
+        const dateObj = new Date(date);
+        const dayName = dateObj.toLocaleDateString('en-US', { weekday: 'short' });
+        const dayNum = dateObj.getDate();
+        const monthName = dateObj.toLocaleDateString('en-US', { month: 'short' });
+        const isToday = date === today;
+
+        const gamesHtml = gamesByDate[date]
+            .sort((a, b) => (a.time || '').localeCompare(b.time || ''))
+            .map(game => {
+                const league = LEAGUES[game.league] || { color: '#666' };
+                return `
+                    <div class="calendar-game" style="border-left-color: ${league.color}">
+                        <div class="calendar-game-time">${game.time || 'TBD'}</div>
+                        <div class="calendar-game-teams">
+                            <strong>${shortenTeamName(game.homeTeam)}</strong> vs ${shortenTeamName(game.awayTeam)}
+                        </div>
+                        <span class="calendar-game-league" style="background: ${league.color}">${game.league}</span>
+                    </div>
+                `;
+            }).join('');
+
+        return `
+            <div class="calendar-day ${isToday ? 'today' : ''}">
+                <div class="calendar-day-header">
+                    <span class="calendar-day-name">${dayName}</span>
+                    <span class="calendar-day-date">${dayNum} ${monthName}</span>
+                </div>
+                <div class="calendar-games">
+                    ${gamesHtml}
+                </div>
+            </div>
+        `;
+    }).join('');
+}
+
+// Shorten team name for calendar display
+function shortenTeamName(name) {
+    if (!name) return '';
+    // Remove common suffixes and shorten
+    return name
+        .replace(/BASKETBOL|BASKET|SPOR|BELEDİYESPOR|BELEDİYESİ|KOLEJİ|KOLEJI/gi, '')
+        .replace(/\s+/g, ' ')
+        .trim()
+        .split(' ')
+        .slice(0, 2)
+        .join(' ');
 }
 
 // Render map markers
