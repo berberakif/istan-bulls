@@ -124,9 +124,9 @@ let popups = [];
 
 // Initialize the application
 document.addEventListener('DOMContentLoaded', async () => {
-    // Set default date filters (Jan 9-19, 2026)
-    document.getElementById('start-date').value = '2026-01-09';
-    document.getElementById('end-date').value = '2026-01-19';
+    // Set default date filters (Mar 13-23, 2026)
+    document.getElementById('start-date').value = '2026-03-13';
+    document.getElementById('end-date').value = '2026-03-23';
 
     initMap();
     await loadGames();
@@ -293,9 +293,9 @@ function applyFilters() {
 
 // Clear all filters (reset to defaults)
 function clearFilters() {
-    // Reset to default dates (Jan 9-19, 2026)
-    document.getElementById('start-date').value = '2026-01-09';
-    document.getElementById('end-date').value = '2026-01-19';
+    // Reset to default dates (Mar 13-23, 2026)
+    document.getElementById('start-date').value = '2026-03-13';
+    document.getElementById('end-date').value = '2026-03-23';
 
     // Clear multi-select dropdowns
     const leagueFilter = document.getElementById('league-filter');
