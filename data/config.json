@@ -28,7 +28,7 @@
                 "Galatasaray U20",
                 "Besiktas U20"
             ],
-            "BGLK": [
+            "KBGL": [
                 "Fenerbahce U20 Women",
                 "Galatasaray U20 Women",
                 "Besiktas U20 Women"
@@ -88,8 +88,8 @@
             "tier": "U20 Men Tier 1",
             "color": "#FF8C00"
         },
-        "BGLK": {
-            "name": "Basketbol Gelişim Ligi Kadın",
+        "KBGL": {
+            "name": "Kadın Basketbol Gelişim Ligi",
             "tier": "U20 Women Tier 1",
             "color": "#FF69B4"
         }
