@@ -1,24 +1,60 @@
 date,time,league,homeTeam,homeCoach,awayTeam,awayCoach,venue,city,lat,lon,ticketUrl,broadcastUrl
-2026-01-10,14:45,TBL,iLab BASKETBOL,,DARÜŞŞAFAKA LASSA,,Beşiktaş Akatlar Arena,Istanbul,41.0794,29.0314,,
-2026-01-09,19:30,TBL,CEMEFE GOLD HAREM SPOR,,GAZİANTEP BASKETBOL,,Beylikdüzü Spor Salonu,Istanbul,41.0044,28.6422,,
-2026-01-18,18:00,BSL,FENERBAHÇE BEKO,Sarunas Jasikevicius,TOFAŞ,Emil Rajkovikj,Ülker Spor ve Etkinlik Salonu,Istanbul,40.9863,29.0378,,
-2026-01-17,15:30,BSL,GALATASARAY MCT TECHNIC,Gianmarco Pozzecco,BAHÇEŞEHİR KOLEJİ,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
-2026-01-17,13:00,BSL,ONVO BÜYÜKÇEKMECE BASKETBOL,,TRABZONSPOR,,Gazanfer Bilge Spor Salonu,Istanbul,41.0178,28.6033,,
-2026-01-17,18:00,BSL,SAFİPORT EROKSPOR,,ANADOLU EFES,,Sinan Erdem Spor Salonu,Istanbul,40.9879,28.8187,,
-2026-01-10,13:00,BSL,SAFİPORT EROKSPOR,,YUKATEL MERKEZEFENDİ BELEDİYESİ BASKET,,Sinan Erdem Spor Salonu,Istanbul,40.9879,28.8187,,beINSports
-2026-01-10,15:30,BSL,GALATASARAY MCT TECHNIC,Gianmarco Pozzecco,BEŞİKTAŞ GAİN,Dušan Alimpijević,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,https://www.passo.com.tr/en/event/galatasaray-mct-technic-besiktas-gain-basketbol-bilet/10398322,beINSports
-2026-01-11,18:00,BSL,FENERBAHÇE BEKO,Sarunas Jasikevicius,BAHÇEŞEHİR KOLEJİ,Marco Barać,Ülker Spor ve Etkinlik Salonu,Istanbul,40.9863,29.0378,,beINSports
-2026-01-12,19:00,BSL,ONVO BÜYÜKÇEKMECE BASKETBOL,,ANADOLU EFES,,Gazanfer Bilge Spor Salonu,Istanbul,41.0178,28.6033,,beINSports
-2026-01-17,13:00,KBSL,FENERBAHÇE SAFİPORT,Miguel Méndez,DARDANEL ÇANAKKALE BELEDİYESPOR,,Fenerbahçe Metro Enerji Spor Salonu,Istanbul,40.9872,29.0365,,Youtube / TBF TV
-2026-01-18,14:00,KBSL,EMLAK KONUT,,BOTAŞ,,Başakşehir Spor Kompleksi,Istanbul,41.0943,28.8024,,Youtube / TBF TV
-2026-01-16,14:00,TKBL,EMLAK KONUT GELİŞİM,,EDİRNE DSİ,,Başakşehir Spor Kompleksi,Istanbul,41.0943,28.8024,,Youtube / TBF TV
-2026-01-17,14:30,TKBL,İSTANBUL GENÇLİK SPOR,,ASLAN YOL BURHANİYE BELEDİYESPOR,,Caferağa Spor Salonu,Istanbul,40.9872,29.0292,,Youtube / TBF TV
-2026-01-16,18:00,BGL,10 BURGER BEYLİKDÜZÜ,,KÜTAHYA BELEDİYESPOR,,Öğretmen Fedai Altun Kapalı Spor Salonu,Istanbul,41.0044,28.6422,,
-2026-01-16,18:30,BGL,İ.T.Ü. TAM FİNANS,,TÜRK TELEKOM GELİŞİM,,İTÜ Merkez Spor Salonu,Istanbul,41.1049,29.0234,,
-2026-01-18,13:30,BGL,İBB SPOR,,AKHİSAR BELEDİYE,,Hidayet Türkoğlu Spor Kompleksi,Istanbul,41.1063,28.9816,,
-2026-01-09,19:00,BGL,WATERGARDEN HT,,KARATAY BELEDİYESPOR,,Caferağa Spor Salonu,Istanbul,40.9872,29.0292,,Youtube / TBF TV
-2026-01-10,15:00,BGL,TEŞVİKİYE,,GÜNGÖREN DORUK,,Caferağa Spor Salonu,Istanbul,40.9872,29.0292,,Youtube / TBF TV
-2026-01-16,20:45,EL,FENERBAHÇE BEKO,Sarunas Jasikevicius,Valencia Basket,Pedro Martinez,Ulker Spor ve Etkinlik Salonu,Istanbul,40.9863,29.0378,https://www.passo.com.tr,beINSports
-2026-01-15,20:30,EL,ANADOLU EFES,Pablo Laso,Baskonia,Paolo Galbiati,Turkcell Basketbol Gelisim Merkezi,Istanbul,40.9879,28.8187,https://www.passo.com.tr,beINSports
-2026-01-13,19:00,EC,BAHÇEŞEHİR KOLEJİ,Marko Barać,BAXI Manresa,,Sinan Erdem Spor Salonu,Istanbul,40.9879,28.8187,https://www.mobilet.com,beINSports
-2026-01-21,20:00,BCL,GALATASARAY MCT TECHNIC,Gianmarco Pozzecco,TBD,,Turkcell Basketbol Gelisim Merkezi,Istanbul,41.1028,28.7847,https://www.passo.com.tr,Youtube / BCL
+2026-03-21,15:30,BSL,GALATASARAY MCT TECHNIC,,ONVO BÜYÜKÇEKMECE BASKETBOL,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,beINSports
+2026-03-21,20:30,BSL,BAHÇEŞEHİR KOLEJİ,,ANADOLU EFES,,Sinan Erdem Spor Salonu,Istanbul,40.9879,28.8187,,beINSports
+2026-03-22,13:00,BSL,FENERBAHÇE BEKO,,SAFİPORT EROKSPOR,,Ülker Spor ve Etkinlik Salonu,Istanbul,40.9863,29.0378,,beINSports
+2026-03-22,18:00,BSL,BEŞİKTAŞ GAİN,,TRABZONSPOR,,Beşiktaş Akatlar Arena,Istanbul,41.0794,29.0314,,beINSports
+2026-03-21,19:00,KBSL,BEŞİKTAŞ BOA,,ÇİMSA ÇBK MERSİN,,Beşiktaş GAİN Spor Kompleksi,Istanbul,41.0794,29.0314,,HT SPOR
+2026-03-17,TBD,EC,BAHÇEŞEHİR KOLEJİ,,BUDUCNOST VOLI / CLUJ (TBD),,Sinan Erdem Spor Salonu,Istanbul,40.9879,28.8187,,beINSports
+2026-03-17,TBD,EC,BEŞİKTAŞ,,REYES / TRENTO (TBD),,Beşiktaş Akatlar Arena,Istanbul,41.0794,29.0314,,beINSports
+2026-03-20,18:45,EL,FENERBAHÇE BEKO,,EA7 EMPORIO ARMANI MILAN,,Ülker Spor ve Etkinlik Salonu,Istanbul,40.9863,29.0378,,beINSports
+2026-03-16,10:00,KBGL,MELİKGAZİ KAYSERİ BASKETBOL,,BEŞİKTAŞ,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-16,12:30,KBGL,GALATASARAY,,DARDANEL ÇANAKKALE BELEDİYESPOR,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-16,12:30,KBGL,ESKİŞEHİR ÇAĞDAŞ KOLEJLİLER,,ADANA BÜYÜKŞEHİR BELEDİYESİ,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-16,15:00,KBGL,ÇANKAYA ÜNİVERSİTESİ,,İZMİR EGE GELİŞİM,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-16,15:00,KBGL,OGM ORMANSPOR,,NESİBE AYDIN,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-16,17:30,KBGL,EMLAK KONUT,,BOTAŞ,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-16,20:00,KBGL,FENERBAHÇE,,TED ÜNİVERSİTESİ TED ANKARA KOLEJLİLER,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-17,10:00,KBGL,BOTAŞ,,OGM ORMANSPOR,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-17,10:00,KBGL,ÇİMSA ÇBK MERSİN,,ÇANKAYA ÜNİVERSİTESİ,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-17,12:30,KBGL,BEŞİKTAŞ,,EMLAK KONUT,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-17,15:00,KBGL,TED ÜNİVERSİTESİ TED ANKARA KOLEJLİLER,,ADANA BÜYÜKŞEHİR BELEDİYESİ,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-17,17:30,KBGL,NESİBE AYDIN,,FENERBAHÇE,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-17,17:30,KBGL,GALATASARAY,,ESKİŞEHİR ÇAĞDAŞ KOLEJLİLER,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-17,20:00,KBGL,İZMİR EGE GELİŞİM,,MELİKGAZİ KAYSERİ BASKETBOL,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-18,10:00,KBGL,ÇANKAYA ÜNİVERSİTESİ,,DARDANEL ÇANAKKALE BELEDİYESPOR,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-18,10:00,KBGL,OGM ORMANSPOR,,BEŞİKTAŞ,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-18,12:30,KBGL,ESKİŞEHİR ÇAĞDAŞ KOLEJLİLER,,TED ÜNİVERSİTESİ TED ANKARA KOLEJLİLER,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-18,15:00,KBGL,ADANA BÜYÜKŞEHİR BELEDİYESİ,,NESİBE AYDIN,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-18,15:00,KBGL,MELİKGAZİ KAYSERİ BASKETBOL,,ÇİMSA ÇBK MERSİN,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-18,17:30,KBGL,FENERBAHÇE,,BOTAŞ,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-18,20:00,KBGL,EMLAK KONUT,,İZMİR EGE GELİŞİM,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-16,10:00,BGL,ONVO BÜYÜKÇEKMECE BASKETBOL,,MERSİN SPOR,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-16,10:00,BGL,TRABZONSPOR,,TOFAŞ,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-16,12:30,BGL,BURSASPOR TATİLDEKİRALA.COM,,GALATASARAY,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-16,15:00,BGL,MANİSA BASKET,,BAHÇEŞEHİR KOLEJİ,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-16,17:30,BGL,ANADOLU EFES,,ALİAĞA PETKİM SPOR,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-16,17:30,BGL,MERKEZEFENDİ BELEDİYESİ BASKET,,FENERBAHÇE BEKO,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-16,20:00,BGL,KARŞIYAKA,,BEŞİKTAŞ,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-16,20:00,BGL,ESENLER EROKSPOR,,TÜRK TELEKOM,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-17,10:00,BGL,GALATASARAY,,MERKEZEFENDİ BELEDİYESİ BASKET,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-17,12:30,BGL,ALİAĞA PETKİM SPOR,,TRABZONSPOR,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-17,12:30,BGL,TOFAŞ,,MANİSA BASKET,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-17,15:00,BGL,FENERBAHÇE BEKO,,ANADOLU EFES,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-17,15:00,BGL,MERSİN SPOR,,ESENLER EROKSPOR,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-17,17:30,BGL,BAHÇEŞEHİR KOLEJİ,,BEŞİKTAŞ,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-17,20:00,BGL,TÜRK TELEKOM,,BURSASPOR TATİLDEKİRALA.COM,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-17,20:00,BGL,ONVO BÜYÜKÇEKMECE BASKETBOL,,KARŞIYAKA,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-18,10:00,BGL,MANİSA BASKET,,ALİAĞA PETKİM SPOR,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-18,12:30,BGL,BURSASPOR TATİLDEKİRALA.COM,,MERSİN SPOR,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-18,12:30,BGL,TRABZONSPOR,,FENERBAHÇE BEKO,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-18,15:00,BGL,KARŞIYAKA,,BAHÇEŞEHİR KOLEJİ,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-18,17:30,BGL,BEŞİKTAŞ,,TOFAŞ,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-18,17:30,BGL,MERKEZEFENDİ BELEDİYESİ BASKET,,TÜRK TELEKOM,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-18,20:00,BGL,ANADOLU EFES,,GALATASARAY,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-18,20:00,BGL,ESENLER EROKSPOR,,ONVO BÜYÜKÇEKMECE BASKETBOL,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-15,18:15,TBL,İLAB BASKETBOL,,PİZZABULLS CEDİ OSMAN BASKETBOL,,Beşiktaş GAİN Spor Kompleksi,Istanbul,41.0794,29.0314,,TBFTV
+2026-03-16,17:00,TBL,CEMEFE GOLD HAREM SPOR,,GÖZTEPE,,Beylikdüzü Spor Salonu,Istanbul,41.0044,28.6422,,HT SPOR
+2026-03-21,18:15,TBL,FENERBAHÇE KOLEJİ RAMS,,BULLS YATIRIM TED ANKARA KOLEJLİLER,,Fenerbahçe Metro Enerji Spor Salonu,Istanbul,40.9872,29.0365,,TBFTV
+2026-03-13,18:00,TKBL,FENERBAHÇE GELİŞİM,,ASLAN YOL BURHANİYE BELEDİYESPOR,,Fenerbahçe Metro Enerji Spor Salonu,Istanbul,40.9872,29.0365,,TBFTV
+2026-03-14,16:00,TKBL,EMLAK KONUT GELİŞİM,,MERSİN GENÇLERBİRLİĞİ,,Başakşehir Spor Kompleksi,Istanbul,41.0943,28.8024,,TBFTV
+2026-03-20,TBD,TKBL,EMLAK KONUT GELİŞİM,,URLA BELEDİYESİ,,Başakşehir Spor Kompleksi,Istanbul,41.0943,28.8024,,
