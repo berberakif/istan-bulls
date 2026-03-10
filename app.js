@@ -7,7 +7,7 @@ const LEAGUES = {
     'KBSL': { name: 'Kadınlar Basketbol Süper Ligi', nameEn: "Women's Super League", tier: 'Women Tier 1', color: '#800080' },
     'TKBL': { name: 'Türkiye Kadınlar Basketbol Ligi', nameEn: "Women's First League", tier: 'Women Tier 2', color: '#BA55D3' },
     'BGL': { name: 'Basketbol Gelişim Ligi Erkek', nameEn: 'U20 Men Development', tier: 'U20 Men', color: '#FF8C00' },
-    'BGLK': { name: 'Basketbol Gelişim Ligi Kadın', nameEn: 'U20 Women Development', tier: 'U20 Women', color: '#FF69B4' },
+    'KBGL': { name: 'Kadın Basketbol Gelişim Ligi', nameEn: 'U20 Women Development', tier: 'U20 Women', color: '#FF69B4' },
     // European Leagues (no tiers)
     'EL': { name: 'Euroleague', nameEn: 'Euroleague', tier: '', color: '#E31837' },
     'EC': { name: 'Eurocup', nameEn: 'Eurocup', tier: '', color: '#FF6B00' },
