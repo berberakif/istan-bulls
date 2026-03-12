@@ -7,11 +7,11 @@ date,time,league,homeTeam,homeCoach,awayTeam,awayCoach,venue,city,lat,lon,ticket
 2026-03-22,13:00,BSL,FENERBAHÇE BEKO,,SAFİPORT EROKSPOR,,Ülker Spor ve Etkinlik Salonu,Istanbul,40.9863,29.0378,,beINSports
 2026-03-22,18:00,BSL,BEŞİKTAŞ GAİN,,TRABZONSPOR,,Beşiktaş Akatlar Arena,Istanbul,41.0794,29.0314,,beINSports
 2026-03-21,19:00,KBSL,BEŞİKTAŞ BOA,,ÇİMSA ÇBK MERSİN,,Beşiktaş GAİN Spor Kompleksi,Istanbul,41.0794,29.0314,,HT SPOR
-2026-03-17,TBD,EC,BAHÇEŞEHİR KOLEJİ,,BUDUCNOST VOLI / CLUJ (TBD),,Sinan Erdem Spor Salonu,Istanbul,40.9879,28.8187,,beINSports
-2026-03-17,TBD,EC,BEŞİKTAŞ,,REYES / TRENTO (TBD),,Beşiktaş Akatlar Arena,Istanbul,41.0794,29.0314,,beINSports
+2026-03-17,19:00,EC,BAHÇEŞEHİR KOLEJİ,,U-BT CLUJ-NAPOCA,,Sinan Erdem Spor Salonu,Istanbul,40.9879,28.8187,,beINSports
+2026-03-18,20:00,EC,BEŞİKTAŞ GAİN,,DOLOMITI ENERGIA TRENTO,,Beşiktaş GAİN Spor Kompleksi,Istanbul,41.0794,29.0314,,beINSports
 2026-03-20,18:45,EL,FENERBAHÇE BEKO,,EA7 EMPORIO ARMANI MILAN,,Ülker Spor ve Etkinlik Salonu,Istanbul,40.9863,29.0378,,beINSports
-2026-03-19,18:30,EL,ANADOLU EFES,,AS MONACO,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,beINSports
-2026-03-18,18:00,BCL,GALATASARAY MCT TECHNIC,,RYTAS VILNIUS,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
+2026-03-19,20:30,EL,ANADOLU EFES,,AS MONACO,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,beINSports
+2026-03-18,20:00,BCL,GALATASARAY MCT TECHNIC,,RYTAS VILNIUS,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
 2026-03-16,10:00,KBGL,MELİKGAZİ KAYSERİ BASKETBOL,,BEŞİKTAŞ,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
 2026-03-16,12:30,KBGL,GALATASARAY,,DARDANEL ÇANAKKALE BELEDİYESPOR,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
 2026-03-16,12:30,KBGL,ESKİŞEHİR ÇAĞDAŞ KOLEJLİLER,,ADANA BÜYÜKŞEHİR BELEDİYESİ,,Turkcell Basketbol Gelişim Merkezi,Istanbul,41.1028,28.7847,,
