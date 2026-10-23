@@ -54,6 +54,14 @@ const VENUES = {
         url: 'https://maps.app.goo.gl/uSMm5wh4jm4S9dh28',
         lat: 41.087099656184044, lon: 29.024052681690975
     },
+    'Beşiktaş Akatlar Spor Kompleksi': {
+        url: 'https://maps.app.goo.gl/uSMm5wh4jm4S9dh28',
+        lat: 41.087099656184044, lon: 29.024052681690975
+    },
+    'Güngören Spor Kompleksi': {
+        url: 'https://www.google.com/maps/search/?api=1&query=G%C3%BCng%C3%B6ren+Spor+Kompleksi+Istanbul',
+        lat: 41.0179, lon: 28.8710
+    },
     'Beylikdüzü Spor Salonu': {
         url: 'https://maps.app.goo.gl/zwoVZMEAzgdaqynVA',
         lat: 41.003039232637605, lon: 28.644945539137993
@@ -124,9 +132,9 @@ let popups = [];
 
 // Initialize the application
 document.addEventListener('DOMContentLoaded', async () => {
-    // Set default date filters (Mar 13-23, 2026)
-    document.getElementById('start-date').value = '2026-03-13';
-    document.getElementById('end-date').value = '2026-03-23';
+    // Set default date filters (Nov 3-15, 2026)
+    document.getElementById('start-date').value = '2026-11-03';
+    document.getElementById('end-date').value = '2026-11-15';
 
     initMap();
     await loadGames();
@@ -293,9 +301,9 @@ function applyFilters() {
 
 // Clear all filters (reset to defaults)
 function clearFilters() {
-    // Reset to default dates (Mar 13-23, 2026)
-    document.getElementById('start-date').value = '2026-03-13';
-    document.getElementById('end-date').value = '2026-03-23';
+    // Reset to default dates (Nov 3-15, 2026)
+    document.getElementById('start-date').value = '2026-11-03';
+    document.getElementById('end-date').value = '2026-11-15';
 
     // Clear multi-select dropdowns
     const leagueFilter = document.getElementById('league-filter');
