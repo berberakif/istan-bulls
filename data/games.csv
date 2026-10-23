@@ -1,4 +1,9 @@
 date,time,league,homeTeam,homeCoach,awayTeam,awayCoach,venue,city,lat,lon,ticketUrl,broadcastUrl
+2026-11-03,20:00,ELW,FENERBAHÇE TARFİN,,VALENCIA BASKET,,Ülker Spor ve Etkinlik Salonu,Istanbul,40.993,29.1055,,
+2026-11-04,19:00,FEC,ESENLER EROKSPOR,,SPORTING CP,,Beşiktaş Akatlar Spor Kompleksi,Istanbul,41.0871,29.0241,,
+2026-11-05,20:15,EL,ANADOLU EFES,,PARIS BASKETBALL,,Turkcell Basketbol Gelişim Merkezi,Istanbul,40.9945,28.9189,,
+2026-11-05,21:00,EL,FENERBAHÇE TARFİN,,KOSNER BASKONIA VITORIA-GASTEIZ,,Ülker Spor ve Etkinlik Salonu,Istanbul,40.993,29.1055,,
+2026-11-06,20:00,EL,BEŞİKTAŞ,,ZALGIRIS KAUNAS,,Turkcell Basketbol Gelişim Merkezi,Istanbul,40.9945,28.9189,,
 2026-11-07,13:00,TB2L,İBB SPOR,,İLKLER ŞEHRİ UŞAK,,Hidayet Türkoğlu Spor Kompleksi,Istanbul,41.0658,28.8864,,
 2026-11-07,14:00,KBSL,GALATASARAY ÇAĞDAŞ FAKTORING,,BEŞİKTAŞ BOA,,Sinan Erdem Spor Salonu,Istanbul,40.9886,28.8545,,HT SPOR
 2026-11-07,16:00,TB2L,WATERGARDEN HT,,ÇORUM BELEDİYESİ,,Caferağa Spor Salonu,Istanbul,40.9884,29.0267,,
@@ -12,8 +17,10 @@ date,time,league,homeTeam,homeCoach,awayTeam,awayCoach,venue,city,lat,lon,ticket
 2026-11-08,16:30,TBL,iLab BASKETBOL,,GÖZTEPE ISONEM,,Beşiktaş Akatlar Spor Kompleksi,Istanbul,41.0871,29.0241,,HT SPOR
 2026-11-08,18:00,BSL,GALATASARAY MCT TECHNIC,,ESENLER EROKSPOR,,Sinan Erdem Spor Salonu,Istanbul,40.9886,28.8545,,beINSports
 2026-11-09,18:30,TKBL,FENERBAHÇE GELİŞİM,,İSTANBUL UTKU,,Fenerbahçe Metro Enerji Spor Salonu,Istanbul,40.9938,29.106,,Youtube / TBF TV
+2026-11-11,19:00,EC,BAHÇEŞEHİR KOLEJİ,,LIETKABELIS PANEVEZYS,,Sinan Erdem Spor Salonu,Istanbul,40.9886,28.8545,,
 2026-11-13,18:00,TB2L,BEYLİKDÜZÜ BASKETBOL İHTİSAS,,KOCAELİ BÜYÜKŞEHİR BELEDİYE KAĞITSPOR,,Öğretmen Fedai Altun Kapalı Spor Salonu,Istanbul,40.9791,28.6537,,
 2026-11-13,18:00,TBL,iLab BASKETBOL,,GAZİANTEP BASKETBOL,,Beşiktaş Akatlar Spor Kompleksi,Istanbul,41.0871,29.0241,,Youtube / TBF TV
+2026-11-13,20:30,EL,ANADOLU EFES,,VIRTUS BOLOGNA,,Turkcell Basketbol Gelişim Merkezi,Istanbul,40.9945,28.9189,,
 2026-11-14,14:00,TB2L,TEŞVİKİYE,,İBB SPOR,,Caferağa Spor Salonu,Istanbul,40.9884,29.0267,,
 2026-11-14,17:00,TB2L,İ.T.Ü HALKBANK,,ÇORLU BELEDİYESİ,,İTÜ Merkez Spor Salonu,Istanbul,41.1032,29.0222,,
 2026-11-14,18:00,TBL,BÜYÜKÇEKMECE BASKETBOL,,BALIKESİR BÜYÜKŞEHİR BELEDİYE SPOR,,Gazanfer Bilge Spor Salonu,Istanbul,41.0271,28.592,,Youtube / TBF TV

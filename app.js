@@ -12,6 +12,7 @@ const LEAGUES = {
     'EL': { name: 'Euroleague', nameEn: 'Euroleague', tier: '', color: '#E31837' },
     'EC': { name: 'Eurocup', nameEn: 'Eurocup', tier: '', color: '#FF6B00' },
     'BCL': { name: 'Basketball Champions League', nameEn: 'Basketball Champions League', tier: '', color: '#00A651' },
+    'FEC': { name: 'FIBA Europe Cup', nameEn: 'FIBA Europe Cup', tier: '', color: '#0057B8' },
     'ELW': { name: 'Euroleague Women', nameEn: 'Euroleague Women', tier: '', color: '#E31837' },
     'ECW': { name: 'Eurocup Women', nameEn: 'Eurocup Women', tier: '', color: '#FF6B00' }
 };
