@@ -214,6 +214,42 @@ section h3 {
     font-weight: 500;
 }
 
+/* Practice Week Switch */
+.period-switch {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.period-btn {
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    background: transparent;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.period-btn:hover {
+    border-color: var(--accent);
+}
+
+.period-btn.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: white;
+}
+
+.period-dates {
+    font-size: 0.8rem;
+    opacity: 0.8;
+    margin-left: 0.25rem;
+}
+
 /* Filters Section */
 .filters-section {
     background: var(--bg-card);

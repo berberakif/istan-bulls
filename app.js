@@ -63,6 +63,14 @@ const VENUES = {
         url: 'https://www.google.com/maps/search/?api=1&query=G%C3%BCng%C3%B6ren+Spor+Kompleksi+Istanbul',
         lat: 41.0179, lon: 28.8710
     },
+    'Ahmet Cömert Spor Salonu': {
+        url: 'https://www.google.com/maps/search/?api=1&query=Ahmet+C%C3%B6mert+Spor+Salonu+Istanbul',
+        lat: 40.9895854, lon: 28.8524049
+    },
+    'Bahçelievler Engelliler Spor Salonu': {
+        url: 'https://www.google.com/maps/search/?api=1&query=Bah%C3%A7elievler+Engelliler+Spor+Salonu+Istanbul',
+        lat: 40.994539, lon: 28.8576601
+    },
     'Beylikdüzü Spor Salonu': {
         url: 'https://maps.app.goo.gl/zwoVZMEAzgdaqynVA',
         lat: 41.003039232637605, lon: 28.644945539137993
@@ -126,16 +134,21 @@ const ISTANBUL_TEAMS = [
     'Fenerbahce U20 Women', 'Galatasaray U20 Women', 'Besiktas U20 Women'
 ];
 
+// Practice week date windows; Efes is shown by default
+const PERIODS = {
+    efes: { start: '2026-11-03', end: '2026-11-15' },
+    fenerbahce: { start: '2026-11-30', end: '2026-12-13' }
+};
+
 let allGames = [];
 let map = null;
 let markers = [];
 let popups = [];
+let activePeriod = 'efes';
 
 // Initialize the application
 document.addEventListener('DOMContentLoaded', async () => {
-    // Set default date filters (Nov 3-15, 2026)
-    document.getElementById('start-date').value = '2026-11-03';
-    document.getElementById('end-date').value = '2026-11-15';
+    setPeriod(activePeriod);
 
     initMap();
     await loadGames();
@@ -245,6 +258,16 @@ function setupEventListeners() {
     document.getElementById('apply-filters').addEventListener('click', applyFilters);
     document.getElementById('clear-filters').addEventListener('click', clearFilters);
 
+    document.querySelectorAll('.period-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            setPeriod(btn.dataset.period);
+            applyFilters();
+        });
+    });
+    ['start-date', 'end-date'].forEach(id => {
+        document.getElementById(id).addEventListener('change', syncPeriodButtons);
+    });
+
     // Special handler for league filter to update team list
     const leagueFilter = document.getElementById('league-filter');
     leagueFilter.addEventListener('change', () => {
@@ -300,11 +323,29 @@ function applyFilters() {
     updateGameCount(filteredGames.length);
 }
 
-// Clear all filters (reset to defaults)
+// Set the date filters to a practice week window
+function setPeriod(key) {
+    activePeriod = key;
+    document.getElementById('start-date').value = PERIODS[key].start;
+    document.getElementById('end-date').value = PERIODS[key].end;
+    syncPeriodButtons();
+}
+
+// Highlight the period button whose window matches the current dates
+function syncPeriodButtons() {
+    const start = document.getElementById('start-date').value;
+    const end = document.getElementById('end-date').value;
+    document.querySelectorAll('.period-btn').forEach(btn => {
+        const period = PERIODS[btn.dataset.period];
+        const isActive = period.start === start && period.end === end;
+        btn.classList.toggle('active', isActive);
+        btn.setAttribute('aria-pressed', isActive);
+    });
+}
+
+// Clear all filters (reset to the selected practice week)
 function clearFilters() {
-    // Reset to default dates (Nov 3-15, 2026)
-    document.getElementById('start-date').value = '2026-11-03';
-    document.getElementById('end-date').value = '2026-11-15';
+    setPeriod(activePeriod);
 
     // Clear multi-select dropdowns
     const leagueFilter = document.getElementById('league-filter');
